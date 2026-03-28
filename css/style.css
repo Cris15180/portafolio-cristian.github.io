@@ -1,0 +1,115 @@
+.montserrat-font{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #171717;
+}
+
+#hero{
+    color: rgb(243, 236, 227);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-mi h1,
+.sobre-mi h2,
+.sobre-mi p {
+    margin: 0;
+}
+
+.sobre-mi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    max-width: 100vh;
+    gap: 27px;
+}
+
+.especialidad{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nombre{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.descripcion{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contact a:hover svg {
+    transform: scale(1.30);
+    transition: transform 0.3s ease;
+
+}
+
+
+#sobre-mi-det{
+    border: solid 1px rgba(243, 236, 227, 0.422);
+    border-radius: 20px;
+    background-color: rgb(0, 0, 29);
+    color: rgb(243, 236, 227);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 150vh;
+    width: 100%;
+    gap: 10vh;
+}
+    
+.sobre-mi-det-texto{
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+    gap: 20px;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15vh;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
