@@ -2,11 +2,6 @@ window.addEventListener("load", () => {
   document.body.style.visibility = "visible";
 });
 
-gsap.registerPlugin(ScrollTrigger);
-
-
-
-
 gsap.from(".fto", {
 x: -50,
   opacity: 0.1,
@@ -20,14 +15,3 @@ gsap.from(".sobre-mi", {
   duration: 1,
   stagger: 1
 });
-
-gsap.from(".sobre-mi-det-titulo", {
-  scrollTrigger: {
-    trigger: "#sobre-mi-det",
-    start: "top 85%"
-  },
-  y: 30,
-  opacity: 0,
-  duration: 0.8
-});
-

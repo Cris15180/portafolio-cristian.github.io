@@ -59,11 +59,11 @@
 
                     <div class="sobre-mi-desc">
                         <div class="sobre-mi-det-texto">
-                        <p>Soy un desarrollador web autodidacta que disfruta crear sitios modernos y funcionales. 
+                        <p class="text1">Soy un desarrollador web autodidacta que disfruta crear sitios modernos y funcionales. 
                         Aprendo a mi ritmo, probando, equivocándome y mejorando en cada paso. </p>
-                        <p>Me gusta combinar diseño y código para construir experiencias limpias y atractivas, 
+                        <p class="text2">Me gusta combinar diseño y código para construir experiencias limpias y atractivas, 
                         prestando atención a los detalles sin complicar las cosas. </p>
-                        <p>Siempre estoy buscando nuevas formas de mejorar, aprender algo nuevo y llevar mis proyectos 
+                        <p class="text3">Siempre estoy buscando nuevas formas de mejorar, aprender algo nuevo y llevar mis proyectos 
                         al siguiente nivel.
                         </p>
                         
@@ -193,7 +193,7 @@
     
         <section id="proyectos">
             <div class="cuadro-pro">
-                <h1 class="proyectos-titulo" style="font-size: 40px;">Proyectos</h1>
+                <h1 class="proyectos-titulo" style="font-size: 40px; border-bottom: 2px solid #ccc; width:30vh; border-radius: 10px;">Proyectos</h1>
 
                     <div class="proyectos-contenedor">
                         <article class="proyecto">
@@ -257,13 +257,40 @@
                         </article>
             </div>
         </section>
+
+        <section id="proceso">
+                <div class="estudio" id="estudio">
+                        <div class="titulo-estudio">
+                            <h1 style="font-size: 40px; border-bottom: 2px solid #ccc; width:30vh; border-radius: 10px;">Estudio</h1>
+                        </div>
+
+                        <div class="exps">
+                            <div class="punto" aria-hidden="true"></div>
+                                <div class="exp-1">
+                                    <h3>Desarrollo Web</h3>
+                                    <span class="fecha">2024-2027</span>
+                                    <p class="lugar">Colegio Tecnico Profesional de Atenas</p>
+                                    <p class="desc">Formación intensiva en desarrollo web, abarcando desde los fundamentos hasta tecnologías avanzadas como HTML, CSS, JavaScript y bases de datos. Desarrollo de proyectos prácticos para aplicar los conocimientos adquiridos.</p>
+                                </div>
+                        </div>
+                </div>
+
+                    
+        </section>
     </main>
     
-</body>
 
 <script
   src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.9.3/dist/dotlottie-wc.js"
   type="module">
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="gsap"></script>
+<script src="js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+</body>
+
+
 
 </html>
