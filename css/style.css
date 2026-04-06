@@ -417,8 +417,7 @@ nav {
 }
 
 .proyecto{
-    border-right: solid 1px rgba(255, 255, 255, 0.684);
-    border-top: solid 1px rgba(255, 255, 255, 0.414);
+    border: solid 1px rgba(255, 255, 255, 0.209);
     gap: 20px;
     padding: 20px;
     border-radius: 8px;
@@ -448,7 +447,7 @@ nav {
     transform: scale(1.02);    
     border-left: solid 1px rgba(255, 255, 255, 0.2);
     border-bottom: solid 1px rgba(255, 255, 255, 0.2);
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.29);
 }
 
 .botones{
